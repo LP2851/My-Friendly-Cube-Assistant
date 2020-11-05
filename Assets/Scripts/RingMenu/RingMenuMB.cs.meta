@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eaa2eda0271bd72418bcf5ce659524ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - data: {fileID: 11400000, guid: 0cd7210f71cffe24c856eab572455050, type: 2}
+  - ringCakePiecePrefab: {fileID: 1852816560299182829, guid: afa811f6cf2e3ad46b116f4b18b71e18,
+      type: 3}
+  - parent: {instanceID: 0}
+  - controller: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

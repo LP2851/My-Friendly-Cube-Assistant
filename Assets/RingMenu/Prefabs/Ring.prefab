@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3145090025201040334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5587387958821792408}
+  - component: {fileID: -4964183099931371015}
+  - component: {fileID: 5147383386288012586}
+  m_Layer: 0
+  m_Name: Ring
+  m_TagString: RingMenuRing
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5587387958821792408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145090025201040334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4964183099931371015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145090025201040334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa2eda0271bd72418bcf5ce659524ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 0cd7210f71cffe24c856eab572455050, type: 2}
+  ringCakePiecePrefab: {fileID: 1852816560299182829, guid: afa811f6cf2e3ad46b116f4b18b71e18,
+    type: 3}
+  gapWidthDegree: 1
+  pieces: []
+  parent: {fileID: 0}
+  path: 
+  controller: {fileID: 0}
+  mouseAngle: 0
+  up: {x: 0, y: 100000, z: 0}
+  mouse: {x: 0, y: 0, z: 0}
+  activeElement: 0
+  assistant: {fileID: 0}
+  movedBoxAwayFromCenter: 0
+  textOverlay: {fileID: 0}
+--- !u!114 &5147383386288012586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145090025201040334}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59402a63a6a5045429ede1c89ba4ea89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 0cd7210f71cffe24c856eab572455050, type: 2}
+  ringCakePiecePrefab: {fileID: 1852816560299182829, guid: afa811f6cf2e3ad46b116f4b18b71e18,
+    type: 3}
+  gapWidthDegree: 1
+  parent: {fileID: 0}
+  path: 
